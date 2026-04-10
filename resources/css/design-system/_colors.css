@@ -1,0 +1,12 @@
+:root {
+  /* الألوان المستخرجة من Palette الصورة */
+  --sidr-gold: #BDA725;
+  --sidr-olive: #4A4E35;
+  --sidr-wood: #5C4221;
+  --sidr-cream: #E4D3B5;
+  
+  /* درجات إضافية للتصميم */
+  --text-main: #2B2E26;
+  --bg-soft: #F4EFE6; /* درجة فاتحة جداً من الكريمي للخلفيات */
+  --error-muted: #A55C5C;
+}
