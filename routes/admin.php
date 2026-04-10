@@ -14,7 +14,6 @@ Route::prefix('admin')->name('admin.')->group(function () {
   Route::delete('collections/destroy/{id}', [AdminController::class, 'destroyCollection'])->name('collections.destroy')->middleware('admin');
   Route::get('collections/edit/{id}', [AdminController::class, 'editCollection'])->name('collections.edit')->middleware('admin');
   Route::post('collections/update/{id}', [AdminController::class, 'updateCollection'])->name('collections.update')->middleware('admin');
-  Route::get('orders/index', [AdminController::class, 'indexOrders'])->name('orders.index')->middleware('admin');
   Route::get('hero', [AdminController::class, 'editHeroImage'])
     ->name('hero.edit');
   Route::post('hero', [AdminController::class, 'updateHeroImage'])
